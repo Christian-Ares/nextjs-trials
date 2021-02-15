@@ -21,7 +21,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <p>I decided to change my life from hostelry to Web Development, thanks to Ironhack, that's possible and now here I'm!</p>
+      <p>I decided to change my life from hostelry to Web Development, thanks to Ironhack, that's possible and now here I'm! That's a new project!</p>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
